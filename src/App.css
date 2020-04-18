@@ -1,0 +1,38 @@
+/* .Home-Background {
+  background-image: url("./images/socializers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  height: 593px;
+  opacity:1;
+  
+ } */
+
+
+ .Home-Background::after {
+  content: "";
+  background: url("./images/socializers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+ /* ../../../public/images/socializers.png */
+nav .brand {
+    
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+  }
+  .amira{
+    opacity: 1;
+    color: rgb(114, 23, 23);
+    font-weight: bolder
+  }
